@@ -1,0 +1,35 @@
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+    color: #3b71ca !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+
+.mainproductimg-class{
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}  
+.mainproductimgdiv-class{
+    padding: 1rem;
+}
+.mainproductimg-class:hover{
+   transform: rotate(-4deg);
+   border-radius: 20%!important;
+}
+.miniproductimg-class{
+    cursor: pointer;
+}
+.mainimage-class{
+  object-fit: cover;
+}
+.subimage-class{
+  object-fit: cover;
+}

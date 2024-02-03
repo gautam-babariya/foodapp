@@ -1,0 +1,10 @@
+.setheroimage-class{
+    width: 100vw;
+    height: 35vw;
+}
+.heroimage-maindiv-class{
+    position: relative!important;
+}
+#carouselExampleIndicators{
+    width: 100%;
+}

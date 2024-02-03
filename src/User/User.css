@@ -1,0 +1,20 @@
+.cardscomponentdiv1-class{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardscomponentdiv2-class{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.heroimagecomponentdiv-class{
+    margin-bottom: 1rem;
+}
+.topsellproductcomponentdiv-class{
+    margin-bottom: 1rem;
+}
+::-webkit-scrollbar {
+    display: none;
+}

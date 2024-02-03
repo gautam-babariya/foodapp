@@ -1,0 +1,9 @@
+#searchcomponent-id{
+    position: absolute;
+    z-index: 1;
+    top: 40vh;
+    right: 20vw;
+}
+::-webkit-scrollbar {
+    display: none;
+}

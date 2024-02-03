@@ -1,0 +1,49 @@
+body{
+    user-select: none;
+}
+#navbar-id{
+    background-color: #f1f82a!important;
+    position: unset;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    position: sticky;
+}
+#navbar-toggler-icon-id{
+    filter: invert(100);
+    font-size: x-large;
+}
+#navbar-brand-id{
+    color: black;
+    font-family: 'Salsa', cursive;
+    font-size: xxx-large;
+}
+#companylogo-id{
+    margin-left: 2.5rem;
+    filter: brightness(0%);
+}
+#offcanvasDarkNavbar{
+    background-color: #f1f82a!important;
+}
+#offcanvas-header-id{
+    color: black;
+}
+.black{
+    color: black!important;
+}
+
+/* sidebar  */
+
+.offcanvas-body{
+    flex-grow: 0!important;
+}
+
+/* acounticon set  */
+
+#adjustacounticon-id{
+    display: flex;
+}
+
+#adjustacounticon-id img{
+    padding: 10px;
+    margin-left: -60px;
+    cursor: pointer;
+}

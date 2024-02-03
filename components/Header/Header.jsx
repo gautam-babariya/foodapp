@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './Header.css'
 import companyLogo from './accets/logo.svg'
 import Accounticon from './accets/acount_icon.png'
 

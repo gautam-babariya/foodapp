@@ -6,7 +6,7 @@ export default defineConfig({
   // server: {
   //   proxy: {
   //     '/api': {
-  //       target: 'https://foodapp-api-nine.vercel.app', // Replace with the actual API server URL
+  //       target: 'http://localhost:5500', // Replace with the actual API server URL
   //       changeOrigin: true,
   //       rewrite: (path) => path.replace(/^\/api/, ''),
   //     },

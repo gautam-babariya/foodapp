@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Food from './accets/fooddish3.jpg'
-import Food1 from './accets/fooddidh4.jpg'
+import Food1 from './accets/myimage.jpg'
 import './Heroimage.css'
 
 

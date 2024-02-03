@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Landing.css'
-import fooddish1 from './accets/fooddidh4.jpg'
+import fooddish1 from './accets/pro.photo.jpg'
 import fooddish2 from './accets/fooddish 4k.jpg'
 import fooddish3 from './accets/fooddish3.jpg'
 import circle from './accets/circle image.png'

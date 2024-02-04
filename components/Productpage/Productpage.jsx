@@ -10,7 +10,7 @@ function Productpage() {
     const { id } = useParams();
     const objectIdTofind = id;
     useEffect(() => {
-        axios.get('http://localhost:5500/productdata')
+        axios.get('https://foodapp-api-nine.vercel.app/productdata')
             .then(async (res) => setproductdetain(res.data.find(product => product._id === objectIdTofind)))
     }, []);
     return (
@@ -24,7 +24,7 @@ function Productpage() {
 
                                 <img
                                     className="rounded-4 fit mainproductimg-class mainimage-class"
-                                    src={`http://localhost:5500/card/image/${productdetail.imageFilename}`}
+                                    src={`https://foodapp-api-nine.vercel.app/card/image/${productdetail.imageFilename}`}
                                 />
                             </div>
                             <div className="d-flex justify-content-center mb-3">
@@ -32,25 +32,25 @@ function Productpage() {
                                     width={60}
                                     height={60}
                                     className="rounded-2 border mx-1 miniproductimg-class subimage-class"
-                                    src={`http://localhost:5500/card/image/${productdetail.subimg1}`}
+                                    src={`https://foodapp-api-nine.vercel.app/card/image/${productdetail.subimg1}`}
                                 />
                                 <img
                                     width={60}
                                     height={60}
                                     className="rounded-2 border mx-1 miniproductimg-class subimage-class"
-                                    src={`http://localhost:5500/card/image/${productdetail.subimg2}`}
+                                    src={`https://foodapp-api-nine.vercel.app/card/image/${productdetail.subimg2}`}
                                 />
                                 <img
                                     width={60}
                                     height={60}
                                     className="rounded-2 border mx-1 miniproductimg-class subimage-class"
-                                    src={`http://localhost:5500/card/image/${productdetail.subimg3}`}
+                                    src={`https://foodapp-api-nine.vercel.app/card/image/${productdetail.subimg3}`}
                                 />
                                 <img
                                     width={60}
                                     height={60}
                                     className="rounded-2 border mx-1 miniproductimg-class subimage-class"
-                                    src={`http://localhost:5500/card/image/${productdetail.subimg4}`}
+                                    src={`https://foodapp-api-nine.vercel.app/card/image/${productdetail.subimg4}`}
                                 />
                             </div>
                         </aside>

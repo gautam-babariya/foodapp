@@ -27,7 +27,7 @@ function Signup() {
             email: data.email,
             password: data.password
         };
-        axios.post("https://foodapp-api-nine.vercel.app/createaccount", userData).then((response) => {
+        axios.post("http://localhost:5500/createaccount", userData).then((response) => {
             let key = (response.data);
             key = key.split(' ')[0];
             let token = (response.data);

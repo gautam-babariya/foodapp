@@ -8,7 +8,7 @@ function Cards() {
   const [productdetail, setproductdetain] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get('https://foodapp-api-nine.vercel.app/productdata')
+    axios.get('http://localhost:5500/productdata')
       .then(async  (res) =>  setproductdetain(res.data)
       );
   }, []);
@@ -21,7 +21,7 @@ function Cards() {
             <div class="card productcard-class" onClick={() => {navigate(`/product/${item._id}`)}
             }>
               <div class="divforimagecard-class">
-                <img src={`https://foodapp-api-nine.vercel.app/card/image/${item.imageFilename}`} class="card-img-top imageincard-class" alt="..." />
+                <img src={`${item.imageFilename}`} class="card-img-top imageincard-class" alt="..." />
               </div>
               <div class="card-body">
                 <h5 class="card-title">{item.title}</h5>

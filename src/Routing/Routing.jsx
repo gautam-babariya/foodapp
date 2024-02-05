@@ -16,7 +16,7 @@ const Routing = () => {
   // ask server for get req .............................
   const [isapp, setisapp] = React.useState([0]);
   useEffect(() => {
-    Axios.get('http://localhost:5500/')
+    Axios.get('https://foodapp-api-nine.vercel.app/')
       .then((res) => {
         if (res) {
           setisapp(1)
@@ -27,7 +27,7 @@ const Routing = () => {
   }, []);
   const [ishome, setishome] = React.useState([0]);
   useEffect(() => {
-    Axios.get('http://localhost:5500/home')
+    Axios.get('https://foodapp-api-nine.vercel.app/home')
       .then((res) => {
         if (res.data == "1") {
           setishome(1)
@@ -39,7 +39,7 @@ const Routing = () => {
   }, []);
   const [isproduct, setisproduct] = React.useState([0]);
   useEffect(() => {
-    Axios.get('http://localhost:5500/product')
+    Axios.get('https://foodapp-api-nine.vercel.app/product')
       .then((res) => {
         if (res.data == "1") {
           setisproduct(1)
@@ -50,7 +50,7 @@ const Routing = () => {
   }, []);
   const [iscreateaccount, setiscreateaccount] = React.useState([0]);
   useEffect(() => {
-    Axios.get('http://localhost:5500/createaccount')
+    Axios.get('https://foodapp-api-nine.vercel.app/createaccount')
       .then((res) => {
         if (res.data == "1") {
           setiscreateaccount(1)
@@ -61,7 +61,7 @@ const Routing = () => {
   }, []);
   const [islogin, setislogin] = React.useState([0]);
   useEffect(() => {
-    Axios.get('http://localhost:5500/login')
+    Axios.get('https://foodapp-api-nine.vercel.app/login')
       .then((res) => {
         if (res.data == "1") {
           setislogin(1)
@@ -81,7 +81,7 @@ const Routing = () => {
       };
       const fetchData = async () => {
         try {
-          const res = await Axios.post('http://localhost:5500/api/checkauth', headers);
+          const res = await Axios.post('https://foodapp-api-nine.vercel.app/api/checkauth', headers);
           if (res.data === 1) {
             setLod("1");
           } else if (res.data === 0) {

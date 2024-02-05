@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
         username: data.username,
         password: data.password
     };
-    axios.post("http://localhost:5500/login", userData).then((response) => {
+    axios.post("https://foodapp-api-nine.vercel.app/login", userData).then((response) => {
         let key = (response.data);
         if(key){
          key = key.split(' ')[0];

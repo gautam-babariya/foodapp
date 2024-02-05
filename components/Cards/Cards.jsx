@@ -8,7 +8,7 @@ function Cards() {
   const [productdetail, setproductdetain] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get('http://localhost:5500/productdata')
+    axios.get('https://foodapp-api-nine.vercel.app/productdata')
       .then(async  (res) =>  setproductdetain(res.data)
       );
   }, []);

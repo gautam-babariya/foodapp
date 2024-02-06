@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Signup.css'
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 function Signup() {
@@ -70,16 +70,10 @@ function Signup() {
                 <label htmlFor="password">Password</label>
                 <input type="password" placeholder="Password" id="password" name="password" onChange={handleChange} />
                 <button type='submit' className='loginbutton-class mt-4 rounded'>Log In</button>
-
-                {/* social login  */}
-                {/* <div className="social">
-                        <div className="go">
-                            <i className="fab fa-google" /> Google
-                        </div>
-                        <div className="fb">
-                            <i className="fab fa-facebook" /> Facebook
-                        </div>
-                    </div> */}
+                <div className='haveanac-class'>
+                <h5>Already have account?</h5>
+                <h6><Link className='linkinhaveac-class' to="/login">Log in</Link></h6>
+                </div>
             </form>
         </>
     )

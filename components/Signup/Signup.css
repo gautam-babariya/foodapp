@@ -37,7 +37,7 @@
 }
 
 .formofloginpage-class {
-    height: 520px;
+    height: max-content !important;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -65,6 +65,32 @@
     line-height: 42px;
     text-align: center;
     color: white;
+}
+
+.formofloginpage-class h5 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+}
+.formofloginpage-class h6 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+}
+.linkinhaveac-class{
+    color: rgb(102, 102, 244) !important;
+}
+
+.haveanac-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 label {

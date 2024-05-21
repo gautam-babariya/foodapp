@@ -57,10 +57,9 @@ function Addproduct() {
         axios.post('https://foodapp-api-nine.vercel.app/products',formData)
         // axios.post('http://localhost:5500/products',formData)
             .then((Response) => {
-                // if (Response.data == "1") {
-                //     navigate('/home');
-                // }
-                console.log(Response.data);
+                if (Response.data == "1") {
+                    navigate('/home');
+                }
             })
             
     }

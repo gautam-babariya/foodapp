@@ -59,7 +59,11 @@ function Addproduct() {
                 if (Response.data == "1") {
                     navigate('/home');
                 }
+                else{
+                    console.log(Response.data);
+                }
             })
+            
     }
     return (
         <>

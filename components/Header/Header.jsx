@@ -9,7 +9,7 @@ function Header() {
       <nav className="navbar navbar-dark bg-dark fixed-top" id="navbar-id">
         <div className="container-fluid">
           <img id="companylogo-id" src={companyLogo} alt="BigCo Inc. logo" />
-          <a className="navbar-brand" id="navbar-brand-id">Fucker hungry</a>
+          <a className="navbar-brand" id="navbar-brand-id">Happy hungry</a>
           <div id="adjustacounticon-id">
             <img id="acounticon-id" src={Accounticon} alt="BigCo Inc. logo" />
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
